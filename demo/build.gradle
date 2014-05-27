@@ -1,10 +1,11 @@
 apply plugin: 'android'
 
+ext.signingProperties = getSigningProperties()
+
 android {
     compileSdkVersion 19
     buildToolsVersion "19.1.0"
 
-    signingProperties = getSigningProperties()
     signingConfigs {
         release {
             storeFile file(signingProperties['storeFile'])
@@ -26,6 +27,7 @@ android {
         release {
             runProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
         }
     }
 }

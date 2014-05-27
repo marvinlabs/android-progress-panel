@@ -32,9 +32,8 @@ android {
     }
 }
 
-sonatypeProperties = getSonatypeRepositoryProperties()
+ext.sonatypeProperties = getSonatypeRepositoryProperties()
 group = "com.marvinlabs.widget"
-artifactId = "progresspanel"
 version = "1.0.0"
 
 android.libraryVariants.all { variant ->

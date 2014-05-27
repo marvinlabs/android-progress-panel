@@ -1,4 +1,27 @@
 android-progress-panel
 ======================
 
-A widget to hold information that can be shown after a task completes
+A widget to hold information that can be shown after a task completes.
+
+## Demo
+
+A demo of the widget is worth a thousand words. You can download it for free on Google Play.
+
+<a href="https://play.google.com/store/apps/details?id=com.marvinlabs.widget.progresspanel.demo">
+  <img alt="Demo on Google Play"
+         src="http://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+</a>
+
+## About Vincent & MarvinLabs
+
+I am a freelance developer located in Biarritz, France. You can [have a look at my website](http://vincentprat.info) to get to know me a little better. If you want to follow me, here are some links:
+
+* [Follow me on Twitter](http://twitter.com/vpratfr)
+* [Follow me on Google+](https://plus.google.com/+VincentPrat)
+* [Follow me on Facebook](http://www.facebook.com/vpratfr)
+
+MarvinLabs is my digital studio specialised in native mobile applications and web sites. You can [browse our website](http://www.marvinlabs.com) to get to know us a little better. If you want to get updates about our work, you can also:
+
+* [Follow us on Twitter](http://twitter.com/marvinlabs)
+* [Follow us on Google+](https://plus.google.com/+Marvinlabs)
+* [Follow us on Facebook](http://www.facebook.com/studio.marvinlabs)
