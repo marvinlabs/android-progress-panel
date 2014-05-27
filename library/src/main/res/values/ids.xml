@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Progress panel -->
+    <item name="content_container" type="id" />
+    <item name="content_view" type="id" />
+    <item name="empty_container" type="id" />
+    <item name="empty_view" type="id" />
+    <item name="progress_container" type="id" />
+    <item name="progress_view" type="id" />
+</resources>
