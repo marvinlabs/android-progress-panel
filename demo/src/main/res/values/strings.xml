@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MarvinLabs Widgets Demo</string>
+    <string name="app_name">Progress Panel</string>
     <string name="reload_nodata">Empty data</string>
     <string name="reload_withdata">Reload data</string>
     <string name="nodata">No data data</string>
 
     <string name="demo_progress_simple">Progress panel (default)</string>
     <string name="demo_progress_custom">Progress panel (custom)</string>
-    <string name="demo_aspectratio">Square views</string>
-    <string name="demo_aspectratio_caption">The image above is an image with landscape format that gets cropped. Without the square layout, no way to keep that square aspect ratio and ask the image to fill the whole width.</string>
 </resources>
