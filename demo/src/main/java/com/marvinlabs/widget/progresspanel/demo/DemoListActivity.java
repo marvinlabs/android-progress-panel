@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 
+import com.marvinlabs.widget.progresspanel.demo.R;
+
 public class DemoListActivity extends FragmentActivity implements DemoListFragment.OnDemoSelectedListener {
 
     private static final String TAG_LIST_FRAGMENT = "ListFragment";

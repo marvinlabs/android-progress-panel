@@ -6,6 +6,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 
+import com.marvinlabs.widget.progresspanel.demo.R;
+
 public class DemoActivity extends FragmentActivity {
 
     public static final String EXTRA_FRAGMENT_CLASS = "FragmentClass";

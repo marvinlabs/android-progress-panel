@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import fr.marvinlabs.widget.demo.R;
+import com.marvinlabs.widget.progresspanel.demo.R;
 
 /**
  * @author Vincent Mimoun-Prat @ MarvinLabs

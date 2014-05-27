@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="fr.marvinlabs.widget.demo"
-        android:versionCode="1"
-        android:versionName="1.0.0">
-
-    <uses-sdk
-            android:minSdkVersion="14"
-            android:targetSdkVersion="16"/>
+    package="com.marvinlabs.widget.progresspanel.demo"
+    android:versionCode="1"
+    android:versionName="1.0.0">
 
     <application
-            android:allowBackup="true"
-            android:icon="@drawable/ic_launcher"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.MarvinLabsWidgetDemo">
-        <activity
-                android:name="com.marvinlabs.widget.progresspanel.demo.DemoListActivity">
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MarvinLabsWidgetDemo">
+        <activity android:name="com.marvinlabs.widget.progresspanel.demo.DemoListActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-                android:name="com.marvinlabs.widget.progresspanel.demo.DemoActivity">
-        </activity>
+        <activity android:name="com.marvinlabs.widget.progresspanel.demo.DemoActivity"></activity>
     </application>
 
 </manifest>
