@@ -1,49 +1,47 @@
-<fr.marvinlabs.widget.progress.ProgressPanel xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/progress_panel"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        style="@style/MarvinLabs.MainContainer"
-        tools:context=".DemoActivity">
+<com.marvinlabs.widget.progresspanel.ProgressPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/progress_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MarvinLabs.MainContainer"
+    tools:context=".DemoActivity">
 
     <ListView
-            android:id="@id/content_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            />
+        android:id="@id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <LinearLayout
-            android:id="@id/progress_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
+        android:id="@id/progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
 
         <ProgressBar
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:indeterminate="true"
-                style="?android:attr/progressBarStyleHorizontal"/>
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:indeterminate="true"
+            style="?android:attr/progressBarStyleHorizontal" />
     </LinearLayout>
 
     <LinearLayout
-            android:id="@id/empty_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
+        android:id="@id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
 
         <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_sorry"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sorry" />
 
         <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/no_data"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/no_data" />
     </LinearLayout>
-</fr.marvinlabs.widget.progress.ProgressPanel>
+</com.marvinlabs.widget.progresspanel.ProgressPanel>

@@ -1,4 +1,4 @@
-package fr.marvinlabs.widget.progress;
+package com.marvinlabs.widget.progresspanel;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -9,18 +9,18 @@ import android.view.animation.AnimationUtils;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import fr.marvinlabs.widget.R;
+import com.marvinlabs.widget.progresspanel.R;
 
 /**
  * A panel that can either show a progress indicator, a no-data indicator or some content. This is derived from the
  * ListFragment.
- * <p/>
+ *
  * The content can either be set programmatically (using one of the setContentView methods) or can be taken from the
- * XML file (in that case, it should be set as a child of the ProgressPanel with the id "android:id/content").
- * <p/>
+ * XML file (in that case, it should be set as a child of the ProgressPanel with the id "@id/content_view").
+ *
  * You can also set custom views for the no-data indicator and the progress indicator. These views can also be set
  * programmatically or specified as children of the ProgressPanel within an XML layout (with the respective ids
- * "android:id/empty" and "android:id/progress").
+ * "@id/empty_view" and "@id/progress_view").
  *
  * @author Vincent Mimoun-Prat @ MarvinLabs (www.marvinlabs.com)
  */

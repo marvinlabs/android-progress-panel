@@ -4,15 +4,27 @@ android {
     compileSdkVersion 19
     buildToolsVersion "19.1.0"
 
+    signingProperties = getSigningProperties()
+    signingConfigs {
+        release {
+            storeFile file(signingProperties['storeFile'])
+            storePassword signingProperties['storePassword']
+            keyAlias signingProperties['keyAlias']
+            keyPassword signingProperties['keyPassword']
+        }
+    }
+
     defaultConfig {
-        minSdkVersion 8
+        packageName "com.marvinlabs.widget.progresspanel.demo"
+        minSdkVersion 7
         targetSdkVersion 19
         versionCode 1
-        versionName "1.0"
+        versionName '1.0.0'
     }
+
     buildTypes {
         release {
-            runProguard false
+            runProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
@@ -21,5 +33,5 @@ android {
 dependencies {
     compile project(':library')
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:19.+'
+    compile 'com.android.support:appcompat-v7:19.1.0'
 }

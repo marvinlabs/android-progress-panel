@@ -15,6 +15,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.marvinlabs.widget.progresspanel.demo.R;
+
 /**
  * List all the available demos
  *
@@ -45,10 +47,10 @@ public class DemoListFragment extends Fragment implements AdapterView.OnItemClic
 
         demos = new ArrayList<Map<String, Object>>();
         demos.add(newDemoEntry(getString(R.string.demo_progress_simple),
-                "ProgressPanelDemoFragment",
+                "com.marvinlabs.widget.progresspanel.demo.ProgressPanelDemoFragment",
                 ProgressPanelDemoFragment.getArguments(ProgressPanelDemoFragment.ProgressPanelType.SIMPLE)));
         demos.add(newDemoEntry(getString(R.string.demo_progress_custom),
-                "ProgressPanelDemoFragment",
+                "com.marvinlabs.widget.progresspanel.demo.ProgressPanelDemoFragment",
                 ProgressPanelDemoFragment.getArguments(ProgressPanelDemoFragment.ProgressPanelType.CUSTOM)));
     }
 

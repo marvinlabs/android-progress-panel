@@ -13,8 +13,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.marvinlabs.widget.demo.R;
-import fr.marvinlabs.widget.progress.ProgressPanel;
+import com.marvinlabs.widget.progresspanel.demo.R;
+import com.marvinlabs.widget.progresspanel.ProgressPanel;
 
 /**
  * @author Vincent Mimoun-Prat @ MarvinLabs
