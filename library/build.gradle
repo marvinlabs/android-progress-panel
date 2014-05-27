@@ -33,7 +33,7 @@ android {
 }
 
 ext.sonatypeProperties = getSonatypeRepositoryProperties()
-group = "com.marvinlabs.widget"
+group = "com.marvinlabs.widget.progresspanel"
 version = "1.0.0"
 
 android.libraryVariants.all { variant ->
@@ -96,7 +96,7 @@ uploadArchives {
             pom.project {
                 inceptionYear '2014'
                 name 'Android Progress Panel'
-                artifactId 'progresspanel'
+                artifactId 'progresspanel-widget'
                 packaging 'jar', 'aar'
                 description 'A progress panel widget for Android'
                 url 'https://github.com/marvinlabs/android-progress-panel'
