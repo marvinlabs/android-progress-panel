@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MarvinLabs Widgets Demo</string>
+    <string name="app_name">Progress Panel</string>
     <string name="reload_nodata">Empty data</string>
     <string name="reload_withdata">Reload data</string>
     <string name="nodata">No data data</string>
