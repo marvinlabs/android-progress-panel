@@ -95,8 +95,8 @@ uploadArchives {
             pom.project {
                 inceptionYear '2014'
                 name 'Android Progress Panel'
-                artifactId 'progresspanel-widget'
-                packaging 'jar', 'aar'
+                artifactId 'android-progresspanel-widget'
+                packaging 'aar'
                 description 'A progress panel widget for Android'
                 url 'https://github.com/marvinlabs/android-progress-panel'
 
